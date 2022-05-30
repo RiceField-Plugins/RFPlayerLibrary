@@ -35,6 +35,9 @@
         <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\Libraries\RocketMod\Assembly-CSharp.dll</HintPath>
         </Reference>
+        <Reference Include="com.rlabrecque.steamworks.net, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\Libraries\RFRocketMod\com.rlabrecque.steamworks.net.dll</HintPath>
+        </Reference>
         <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\Libraries\Dapper\Dapper.dll</HintPath>
         </Reference>
@@ -47,11 +50,11 @@
         <Reference Include="MySql.Data, Version=8.0.25.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
           <HintPath>..\..\..\Libraries\MySQL\MySql.Data.dll</HintPath>
         </Reference>
-        <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
-          <HintPath>..\..\..\Libraries\RocketMod\Newtonsoft.Json.dll</HintPath>
+        <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+          <HintPath>..\..\..\Libraries\RFRocketMod\Newtonsoft.Json.dll</HintPath>
         </Reference>
-        <Reference Include="RFRocketLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\..\..\Libraries\RiceField\RFRocketLibrary.dll</HintPath>
+        <Reference Include="RFRocketLibrary, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\Libraries\RFRocketMod\RFRocketLibrary.dll</HintPath>
         </Reference>
         <Reference Include="Rocket.API, Version=4.9.3.4, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\Libraries\RocketMod\Rocket.API.dll</HintPath>
@@ -64,9 +67,6 @@
         </Reference>
         <Reference Include="SDG.NetTransport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\Libraries\RocketMod\SDG.NetTransport.dll</HintPath>
-        </Reference>
-        <Reference Include="Steamworks.NET, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\..\..\Libraries\RocketMod\Steamworks.NET.dll</HintPath>
         </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />
